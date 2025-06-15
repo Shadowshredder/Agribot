@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
 # Load dataset and explanation file
-fertilizer_df = pd.read_csv("fertilizer.csv")
+fertilizer_df = pd.read_csv("Fertilizer.csv")
 with open("crop_explanations.json", "r") as f:
     crop_explanations = json.load(f)
 
